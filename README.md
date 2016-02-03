@@ -1,4 +1,4 @@
-# goauld
+# Goauld.js
 Infect other process with Node.js
 
   var Goauld = require('./goauld.js');
