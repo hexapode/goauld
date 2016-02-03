@@ -1,7 +1,18 @@
 # Goauld.js
 Infect other process with Node.js
 
-  var Goauld = require('./goauld.js');
+  ![Alt text](http://www.stargate-sg1-solutions.com/wg/symbiotes/101-cotg4-tealc-larval-goauld-symbiote.jpg "Goauld")
+
+## Installation
+
+```
+  npm install goauld --save
+```
+
+## Usage
+
+```
+  var Goauld = require('goauld');
 
   var goauld = new Goauld();
 
@@ -10,3 +21,5 @@ Infect other process with Node.js
   goauld.ask("21 + 21",function(answer) {
     console.log(answer); 
   });
+```
+
